@@ -35,7 +35,9 @@ class Program
         baru.setKodePos("Samoja", 40273);
         Console.WriteLine(baru.getKodePos());
 
-        //Console.WriteLine("\n");
-        
+        Console.WriteLine("\n");
+        Console.WriteLine("Door Machine dimulai");
+        DoorMachine.Mulai();
+
     }
 }
